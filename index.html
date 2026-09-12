@@ -6,78 +6,108 @@
 
     <title>Duaa Faheem — Portfolio</title>
 
-    <link rel="stylesheet" href="css/css.css">
+    <meta
+            name="description"
+            content="Portfolio van Duaa Faheem, derdejaars HBO-Rechtenstudent."
+    >
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link
+            href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="css/css.css">
 </head>
 
 <body>
 
-<nav class="navbar">
+<!-- NAVIGATION -->
+<header class="navbar" id="navbar">
 
     <a href="#home" class="logo">
-        DF.
+        DF<span>.</span>
     </a>
 
-    <div class="nav-links">
+    <nav class="nav-links">
         <a href="#about">Over mij</a>
         <a href="#skills">Skills</a>
         <a href="#projects">Projecten</a>
-        <a href="#contact">Contact</a>
-    </div>
+        <a href="#experience">Ervaring</a>
+    </nav>
 
     <a href="#contact" class="nav-contact">
-        Let's talk ↗
+        Let's talk <span>↗</span>
     </a>
 
-</nav>
+    <button class="menu-button" aria-label="Menu openen">
+        <span></span>
+        <span></span>
+    </button>
+
+</header>
 
 
 <main>
 
-    <!-- =========================
-         HERO
-    ========================== -->
+    <!-- HERO -->
+    <section class="hero" id="home">
 
-    <section id="home" class="hero">
+        <div class="hero-content reveal">
 
-        <div class="hero-left">
-
-            <p class="eyebrow">
+            <div class="hero-label">
+                <span></span>
                 PORTFOLIO / 2026
-            </p>
+            </div>
 
             <h1>
                 Duaa
                 <span>Faheem.</span>
             </h1>
 
-            <p class="hero-text">
-                Een persoonlijke portfolio waarin ik laat zien
-                wie ik ben, wat ik doe en waar ik naartoe wil.
+            <p class="hero-description">
+                Een derdejaars HBO-Rechtenstudent met een sterke interesse
+                in recht, communicatie, verantwoordelijkheid en persoonlijke
+                ontwikkeling.
             </p>
 
             <div class="hero-buttons">
 
-                <a href="#projects" class="button primary">
+                <a href="#projects" class="button button-primary">
                     Bekijk mijn werk
                     <span>↗</span>
                 </a>
 
-                <a href="#about" class="button secondary">
+                <a href="#about" class="button button-outline">
                     Over mij
                 </a>
 
             </div>
 
+            <div class="hero-meta">
+                <div>
+                    <strong>03</strong>
+                    <span>JAAR HBO-RECHTEN</span>
+                </div>
+
+                <div>
+                    <strong>AMS</strong>
+                    <span>HOGESCHOOL VAN AMSTERDAM</span>
+                </div>
+            </div>
+
         </div>
 
 
-        <div class="hero-right">
+        <div class="hero-visual reveal">
 
-            <div class="hero-image">
+            <div class="hero-number">
+                01
+            </div>
+
+            <div class="hero-image-wrapper">
 
                 <img
                         src="media/img.png"
@@ -87,96 +117,475 @@
 
             </div>
 
-            <div class="floating-text">
-                LAW STUDENT<br>
-                CREATIVE MIND
+            <div class="image-tag">
+                <span>LAW STUDENT</span>
+                <span>CREATIVE MIND</span>
             </div>
+
+            <div class="yellow-dot"></div>
 
         </div>
 
 
-        <div class="scroll-indicator">
-            <span>SCROLL</span>
-            <div></div>
+        <div class="scroll-down">
+            <span>SCROLL DOWN</span>
+            <div class="scroll-line"></div>
         </div>
 
     </section>
 
 
-    <!-- =========================
-         ABOUT
-    ========================== -->
+    <!-- INTRO -->
+    <section class="intro section">
 
-    <section id="about" class="about section">
+        <div class="section-heading reveal">
 
-        <div class="section-label">
-            01 — OVER MIJ
+            <div class="section-number">
+                01 / ABOUT
+            </div>
+
+            <h2>
+                Recht is meer dan
+                <span>regels.</span>
+            </h2>
+
         </div>
 
-        <div class="about-content">
+        <div class="intro-content reveal">
 
-            <div class="about-title">
+            <p class="intro-large">
+                Het gaat om mensen, verantwoordelijkheid en het vermogen
+                om helder te blijven denken wanneer situaties complex worden.
+            </p>
 
-                <p>EVEN KENNISMAKEN</p>
+            <p>
+                Tijdens mijn opleiding HBO-Rechten ontwikkel ik mij op het
+                gebied van juridisch denken, communicatie en samenwerken.
+                Daarnaast vind ik het belangrijk om mezelf buiten mijn
+                opleiding te blijven ontwikkelen.
+            </p>
 
-                <h2>
-                    Wie zit er
-                    <span>achter?</span>
-                </h2>
+        </div>
 
-                <div class="about-photo">
+    </section>
 
-                    <img
-                            src="media/img_1.png"
-                            alt="Duaa tijdens het sporten"
-                    >
 
-                    <div class="photo-caption">
-                        <span>PERSONAL / 01</span>
-                        <span>SPORT & DISCIPLINE</span>
-                    </div>
+    <!-- ABOUT -->
+    <section class="about section" id="about">
+
+        <div class="about-image reveal">
+
+            <div class="image-label">
+                PERSONAL / 02
+            </div>
+
+            <img
+                    src="media/img_1.png"
+                    alt="Duaa tijdens het sporten"
+            >
+
+            <div class="image-caption">
+                SPORT & DISCIPLINE
+            </div>
+
+        </div>
+
+
+        <div class="about-content reveal">
+
+            <div class="section-number">
+                OVER MIJ
+            </div>
+
+            <h2>
+                Wie ik ben
+            </h2>
+
+            <p>
+                Mijn naam is Duaa Faheem. Ik ben derdejaars student
+                HBO-Rechten aan de Hogeschool van Amsterdam.
+            </p>
+
+            <p>
+                Ik ben iemand die graag verantwoordelijkheid neemt,
+                duidelijk communiceert en altijd probeert om nieuwe
+                dingen te leren. Mijn opleiding heeft mij geleerd om
+                situaties vanuit verschillende perspectieven te bekijken
+                en zorgvuldig tot een conclusie te komen.
+            </p>
+
+            <p>
+                Buiten mijn studie vind ik sport belangrijk. Het helpt
+                mij om discipline, structuur en doorzettingsvermogen
+                te behouden.
+            </p>
+
+            <div class="about-facts">
+
+                <div>
+                    <span>01</span>
+                    <strong>Nieuwsgierig</strong>
+                </div>
+
+                <div>
+                    <span>02</span>
+                    <strong>Verantwoordelijk</strong>
+                </div>
+
+                <div>
+                    <span>03</span>
+                    <strong>Gedreven</strong>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- SKILLS -->
+    <section class="skills section" id="skills">
+
+        <div class="section-top reveal">
+
+            <div class="section-number">
+                03 / SKILLS
+            </div>
+
+            <h2>
+                Wat ik
+                <span>meebreng.</span>
+            </h2>
+
+        </div>
+
+
+        <div class="skills-grid">
+
+            <article class="skill-card reveal">
+
+                <div class="skill-number">01</div>
+
+                <h3>Juridisch denken</h3>
+
+                <p>
+                    Analytisch naar situaties kijken, informatie
+                    beoordelen en juridische vraagstukken structureren.
+                </p>
+
+            </article>
+
+
+            <article class="skill-card reveal">
+
+                <div class="skill-number">02</div>
+
+                <h3>Communicatie</h3>
+
+                <p>
+                    Duidelijk communiceren, luisteren en informatie
+                    begrijpelijk overbrengen aan verschillende mensen.
+                </p>
+
+            </article>
+
+
+            <article class="skill-card reveal">
+
+                <div class="skill-number">03</div>
+
+                <h3>Verantwoordelijkheid</h3>
+
+                <p>
+                    Afspraken nakomen, zelfstandig werken en
+                    verantwoordelijkheid nemen voor mijn taken.
+                </p>
+
+            </article>
+
+
+            <article class="skill-card reveal">
+
+                <div class="skill-number">04</div>
+
+                <h3>Nieuwsgierigheid</h3>
+
+                <p>
+                    Nieuwe kennis opdoen, vragen stellen en mezelf
+                    blijven ontwikkelen.
+                </p>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- PROJECTS -->
+    <section class="projects section" id="projects">
+
+        <div class="section-top reveal">
+
+            <div class="section-number">
+                04 / PROJECTS
+            </div>
+
+            <h2>
+                Mijn
+                <span>projecten.</span>
+            </h2>
+
+        </div>
+
+
+        <div class="project-list">
+
+            <article class="project reveal">
+
+                <div class="project-index">
+                    01
+                </div>
+
+                <div class="project-info">
+
+                    <span class="project-type">
+                        PERSONAL PROJECT
+                    </span>
+
+                    <h3>
+                        Persoonlijk portfolio
+                    </h3>
+
+                    <p>
+                        Een eigen website waarin ik mijn opleiding,
+                        vaardigheden, projecten en ontwikkeling presenteer.
+                    </p>
+
+                </div>
+
+                <div class="project-arrow">
+                    ↗
+                </div>
+
+            </article>
+
+
+            <article class="project reveal">
+
+                <div class="project-index">
+                    02
+                </div>
+
+                <div class="project-info">
+
+                    <span class="project-type">
+                        HBO-RECHTEN
+                    </span>
+
+                    <h3>
+                        Juridisch project
+                    </h3>
+
+                    <p>
+                        Een project waarin juridisch onderzoek,
+                        analyseren en het helder presenteren van
+                        informatie samenkomen.
+                    </p>
+
+                </div>
+
+                <div class="project-arrow">
+                    ↗
+                </div>
+
+            </article>
+
+
+            <article class="project reveal">
+
+                <div class="project-index">
+                    03
+                </div>
+
+                <div class="project-info">
+
+                    <span class="project-type">
+                        PLEITVERENIGING CICERO
+                    </span>
+
+                    <h3>
+                        Cicero
+                    </h3>
+
+                    <p>
+                        Betrokken bij activiteiten rondom de
+                        rechtenopleiding en professionele ontwikkeling.
+                    </p>
+
+                </div>
+
+                <div class="project-arrow">
+                    ↗
+                </div>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- EXPERIENCE -->
+    <section class="experience section" id="experience">
+
+        <div class="section-top reveal">
+
+            <div class="section-number">
+                05 / EXPERIENCE
+            </div>
+
+            <h2>
+                Mijn
+                <span>ervaring.</span>
+            </h2>
+
+        </div>
+
+
+        <div class="timeline">
+
+            <div class="timeline-item reveal">
+
+                <div class="timeline-date">
+                    NU
+                </div>
+
+                <div class="timeline-content">
+
+                    <span>OPLEIDING</span>
+
+                    <h3>
+                        HBO-Rechten
+                    </h3>
+
+                    <p>
+                        Hogeschool van Amsterdam
+                    </p>
 
                 </div>
 
             </div>
 
 
-            <div class="about-text">
+            <div class="timeline-item reveal">
 
-                <p class="large">
-                    Ik ben Duaa Faheem, derdejaars
-                    HBO-Rechtenstudent aan de Hogeschool
-                    van Amsterdam.
-                </p>
+                <div class="timeline-date">
+                    02
+                </div>
 
-                <p>
-                    Ik ben iemand die graag nieuwe dingen leert,
-                    problemen oplost en mezelf voortdurend
-                    wil blijven ontwikkelen.
-                </p>
+                <div class="timeline-content">
 
-                <p>
-                    Tijdens mijn opleiding heb ik geleerd om
-                    kritisch te denken, verschillende
-                    perspectieven te bekijken en zorgvuldig
-                    met juridische vraagstukken om te gaan.
-                </p>
+                    <span>VERENIGING</span>
 
-                <p>
-                    Naast mijn studie vind ik het belangrijk
-                    om ook buiten mijn opleiding bezig te zijn.
-                    Sport, lezen en nieuwe ervaringen spelen
-                    daarin een grote rol.
-                </p>
+                    <h3>
+                        Pleitvereniging Cicero
+                    </h3>
 
-                <p>
-                    Deze portfolio geeft een beeld van mijn
-                    ontwikkeling, mijn interesses en de dingen
-                    waar ik trots op ben.
-                </p>
+                    <p>
+                        Activiteiten en ontwikkeling binnen de
+                        juridische studentenvereniging.
+                    </p>
 
-                <a href="#contact" class="text-link">
-                    Neem contact op →
+                </div>
+
+            </div>
+
+
+            <div class="timeline-item reveal">
+
+                <div class="timeline-date">
+                    03
+                </div>
+
+                <div class="timeline-content">
+
+                    <span>LEIDERSCHAP</span>
+
+                    <h3>
+                        Klassenvertegenwoordiger
+                    </h3>
+
+                    <p>
+                        Communicatie tussen studenten en opleiding
+                        en het vertegenwoordigen van belangen.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="timeline-item reveal">
+
+                <div class="timeline-date">
+                    04
+                </div>
+
+                <div class="timeline-content">
+
+                    <span>WERKERVARING</span>
+
+                    <h3>
+                        Schiphol
+                    </h3>
+
+                    <p>
+                        Werkervaring binnen een professionele en
+                        dynamische omgeving.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+    <section class="contact section" id="contact">
+
+        <div class="contact-content reveal">
+
+            <div class="section-number">
+                06 / CONTACT
+            </div>
+
+            <h2>
+                Laten we
+                <span>praten.</span>
+            </h2>
+
+            <p>
+                Heb je een vraag, wil je meer weten over mijn
+                achtergrond ?
+            </p>
+
+            <div class="contact-links">
+
+                <a href="mailto:aslamduaa200@gmail.com">
+                    Gmail <span>↗</span>
+                </a>
+
+                <a
+                        href="https://www.linkedin.com/in/duaa-faheem-811661325/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                >
+                    LinkedIn <span>↗</span>
                 </a>
 
             </div>
@@ -185,446 +594,25 @@
 
     </section>
 
-
-    <!-- =========================
-         SKILLS
-    ========================== -->
-
-    <section id="skills" class="skills section">
-
-        <div class="section-label">
-            02 — SKILLS
-        </div>
-
-        <div class="skills-header">
-
-            <h2>
-                Wat ik
-                <span>meebreng.</span>
-            </h2>
-
-            <p>
-                Een combinatie van juridische kennis,
-                communicatie en persoonlijke ontwikkeling.
-            </p>
-
-        </div>
-
-
-        <div class="skills-list">
-
-            <div class="skill">
-
-                <span class="skill-number">01</span>
-
-                <div>
-                    <h3>Juridisch denken</h3>
-
-                    <p>
-                        Kritisch analyseren, verschillende
-                        belangen afwegen en zorgvuldig werken.
-                    </p>
-                </div>
-
-                <span class="skill-arrow">↗</span>
-
-            </div>
-
-
-            <div class="skill">
-
-                <span class="skill-number">02</span>
-
-                <div>
-                    <h3>Communicatie</h3>
-
-                    <p>
-                        Duidelijk communiceren, goed luisteren
-                        en professioneel omgaan met verschillende mensen.
-                    </p>
-                </div>
-
-                <span class="skill-arrow">↗</span>
-
-            </div>
-
-
-            <div class="skill">
-
-                <span class="skill-number">03</span>
-
-                <div>
-                    <h3>Verantwoordelijkheid</h3>
-
-                    <p>
-                        Afspraken nakomen, initiatief nemen
-                        en verantwoordelijkheid durven dragen.
-                    </p>
-                </div>
-
-                <span class="skill-arrow">↗</span>
-
-            </div>
-
-
-            <div class="skill">
-
-                <span class="skill-number">04</span>
-
-                <div>
-                    <h3>Nieuwsgierigheid</h3>
-
-                    <p>
-                        Verder kijken dan het eerste antwoord
-                        en mezelf blijven ontwikkelen.
-                    </p>
-                </div>
-
-                <span class="skill-arrow">↗</span>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- =========================
-         PROJECTS
-    ========================== -->
-
-    <section id="projects" class="projects section">
-
-        <div class="section-label">
-            03 — PROJECTEN
-        </div>
-
-        <div class="projects-header">
-
-            <h2>
-                Mijn
-                <span>werk.</span>
-            </h2>
-
-            <p>
-                Projecten, opdrachten en ervaringen
-                die iets vertellen over mijn ontwikkeling.
-            </p>
-
-        </div>
-
-
-        <div class="project-grid">
-
-            <!-- PROJECT 1 -->
-
-            <article class="project project-large">
-
-                <div class="project-image project-one">
-
-                    <div class="project-number">
-                        01
-                    </div>
-
-                    <span>
-                        PORTFOLIO
-                    </span>
-
-                </div>
-
-                <div class="project-info">
-
-                    <div>
-
-                        <span class="project-category">
-                            PERSONAL WEBSITE
-                        </span>
-
-                        <h3>
-                            Mijn portfolio
-                        </h3>
-
-                    </div>
-
-                    <p>
-                        Een persoonlijke website waarin ik
-                        mijn achtergrond, ontwikkeling en
-                        interesses samenbreng.
-                    </p>
-
-                    <div class="project-tags">
-                        <span>HTML</span>
-                        <span>CSS</span>
-                        <span>JavaScript</span>
-                    </div>
-
-                    <a href="#" class="project-link">
-                        Bekijk project ↗
-                    </a>
-
-                </div>
-
-            </article>
-
-
-            <!-- PROJECT 2 -->
-
-            <article class="project">
-
-                <div class="project-image project-two">
-
-                    <div class="project-number">
-                        02
-                    </div>
-
-                    <span>
-                        PROJECT
-                    </span>
-
-                </div>
-
-                <div class="project-info">
-
-                    <span class="project-category">
-                        SCHOOL
-                    </span>
-
-                    <h3>
-                        Juridisch project
-                    </h3>
-
-                    <p>
-                        Een project vanuit mijn opleiding
-                        HBO-Rechten.
-                    </p>
-
-                    <div class="project-tags">
-                        <span>RECHT</span>
-                        <span>ONDERZOEK</span>
-                    </div>
-
-                    <a href="#" class="project-link">
-                        Bekijk project ↗
-                    </a>
-
-                </div>
-
-            </article>
-
-
-            <!-- PROJECT 3 -->
-
-            <article class="project">
-
-                <div class="project-image project-three">
-
-                    <div class="project-number">
-                        03
-                    </div>
-
-                    <span>
-                        EXPERIENCE
-                    </span>
-
-                </div>
-
-                <div class="project-info">
-
-                    <span class="project-category">
-                        ERVARING
-                    </span>
-
-                    <h3>
-                        Pleitvereniging Cicero
-                    </h3>
-
-                    <p>
-                        Ervaring waarmee ik mijn
-                        communicatie- en pleitvaardigheden
-                        ontwikkel.
-                    </p>
-
-                    <div class="project-tags">
-                        <span>COMMUNICATIE</span>
-                        <span>PLEITEN</span>
-                    </div>
-
-                    <a href="#" class="project-link">
-                        Meer informatie ↗
-                    </a>
-
-                </div>
-
-            </article>
-
-        </div>
-
-    </section>
-
-
-    <!-- =========================
-         EXPERIENCE
-    ========================== -->
-
-    <section class="experience section">
-
-        <div class="section-label">
-            04 — ONTWIKKELING
-        </div>
-
-        <div class="experience-layout">
-
-            <h2>
-                Mijn
-                <span>verhaal.</span>
-            </h2>
-
-
-            <div class="timeline">
-
-                <div class="timeline-item">
-
-                    <span>NU</span>
-
-                    <div>
-
-                        <h3>
-                            HBO-Rechten
-                        </h3>
-
-                        <p>
-                            Derdejaars student aan de
-                            Hogeschool van Amsterdam.
-                        </p>
-
-                    </div>
-
-                </div>
-
-
-                <div class="timeline-item">
-
-                    <span>+1 JAAR</span>
-
-                    <div>
-
-                        <h3>
-                            Pleitvereniging Cicero
-                        </h3>
-
-                        <p>
-                            Ontwikkelen van mijn
-                            communicatie- en pleitvaardigheden.
-                        </p>
-
-                    </div>
-
-                </div>
-
-
-                <div class="timeline-item">
-
-                    <span>+1 JAAR</span>
-
-                    <div>
-
-                        <h3>
-                            Klassenvertegenwoordiger
-                        </h3>
-
-                        <p>
-                            Medestudenten vertegenwoordigen
-                            en leren communiceren met verschillende partijen.
-                        </p>
-
-                    </div>
-
-                </div>
-
-
-                <div class="timeline-item">
-
-                    <span>NU</span>
-
-                    <div>
-
-                        <h3>
-                            Werkervaring op Schiphol
-                        </h3>
-
-                        <p>
-                            Werken in een internationale en
-                            dynamische omgeving.
-                        </p>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- =========================
-         CONTACT
-    ========================== -->
-
-    <section id="contact" class="contact section">
-
-        <div class="section-label">
-            05 — CONTACT
-        </div>
-
-        <div class="contact-content">
-
-            <p class="eyebrow">
-                HEB JE EEN VRAAG?
-            </p>
-
-            <h2>
-                Laten we
-                <span>praten.</span>
-            </h2>
-
-            <p>
-                Wil je meer weten over mijn achtergrond,
-                ervaringen of mogelijkheden?
-            </p>
-
-            <a
-                    href="mailto:aslamduaa200@gmail.com"
-                    class="email"
-            >
-                aslamduaa200@gmail.com
-                <span>↗</span>
-            </a>
-
-        </div>
-
-
-        <footer>
-
-            <span>
-                © 2026 — DUAA FAHEEM
-            </span>
-
-            <div>
-                <a href="#">GitHub</a>
-                <a href="#">LinkedIn</a>
-            </div>
-
-            <span>
-                BUILT WITH HTML / CSS / JS
-            </span>
-
-        </footer>
-
-    </section>
-
 </main>
+
+
+<!-- FOOTER -->
+<footer>
+
+    <div class="footer-logo">
+        DF<span>.</span>
+    </div>
+
+    <p>
+        © <span id="year"></span> Duaa Faheem
+    </p>
+
+    <p>
+        BUILT WITH HTML / CSS / JS
+    </p>
+
+</footer>
 
 
 <script src="script.js"></script>
